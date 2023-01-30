@@ -119,8 +119,8 @@ if amount_pages >= 2:
 
 
 # Printing for debugging
-for product in TeslaArticle.products:
-    print(product.title, "\n", "Price:", product.price, "\n", "Location:", product.location, "\n", "Model Year:", product.year, "\n", "Mileage:", product.mileage)
+#for product in TeslaArticle.products:
+#    print(product.title, "\n", "Price:", product.price, "\n", "Location:", product.location, "\n", "Model Year:", product.year, "\n", "Mileage:", product.mileage)
 
 
 # Preparing items in lists so I can write to CSV.
@@ -142,7 +142,7 @@ for product in TeslaArticle.products:
 
 
 # More Debugging and writing to CSV.
-print(cartitles)
+#print(cartitles)
 f = open("articles.csv", "a", newline="")
 writer = csv.writer(f)
 writer.writerow(cartitles)
@@ -151,6 +151,6 @@ writer.writerow(carlocations)
 writer.writerow(caryears)
 writer.writerow(carmileages)
 
-
+print("Done, check CSV-file")
 # End browser process
 kill_browser()
