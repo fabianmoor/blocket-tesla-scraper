@@ -5,6 +5,6 @@ model year, price, mileage and location.</p1>
 
 <li>1. pip3/pip install bs4.</li>
 <li>2. pip3/pip install helium</li>
-<li>3. run python3/pyton main.py</li>
+<li>3. run python3/python main.py</li>
 <li>4. Add amount of pages to scrape. ("Around 40 articles per page")</li>
 <li>5. Use generated CSV-file in excell-software of your choosing.</li>
