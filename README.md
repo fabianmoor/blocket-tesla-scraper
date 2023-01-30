@@ -1,5 +1,3 @@
-# blocket-tesla-scraper
-
 <h1>Blocket Tesla Scraper</h1>
   <p1>Basic script that asks you for amount of pages to scrape,<br>
 then scrapes it and creates a CSV-file with name of the auction,<br>
